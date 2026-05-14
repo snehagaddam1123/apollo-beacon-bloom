@@ -75,11 +75,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "Apollo Hospitals — Touching Lives Since 1983" },
       { name: "description", content: "Asia's most trusted multi-specialty hospital network. 71+ hospitals, 200M+ lives touched, world-class care across cardiology, oncology, neurology and more." },
       { name: "author", content: "Apollo Hospitals" },
-      { property: "og:title", content: "Apollo Hospitals — Touching Lives" },
-      { property: "og:description", content: "Asia's most trusted multi-specialty hospital network. World-class care since 1983." },
+      { property: "og:title", content: "Apollo Hospitals — Touching Lives Since 1983" },
+      { property: "og:description", content: "Asia's most trusted multi-specialty hospital network. 71+ hospitals, 200M+ lives touched, world-class care across cardiology, oncology, neurology and more." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Apollo Hospitals — Touching Lives Since 1983" },
+      { name: "twitter:description", content: "Asia's most trusted multi-specialty hospital network. 71+ hospitals, 200M+ lives touched, world-class care across cardiology, oncology, neurology and more." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/61305261-e457-41f4-bb05-d95d9647027f/id-preview-f2fccff7--46a107c6-c4f0-4b79-85b6-5305e4b409e6.lovable.app-1778611190427.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/61305261-e457-41f4-bb05-d95d9647027f/id-preview-f2fccff7--46a107c6-c4f0-4b79-85b6-5305e4b409e6.lovable.app-1778611190427.png" },
     ],
     links: [
       {
